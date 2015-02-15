@@ -30,6 +30,7 @@ h2 {
     letter-spacing: 1px;
     opacity: 1.0;
     color: #FFF;
+
 }
 
 h5 {
@@ -49,7 +50,7 @@ h5 {
     letter-spacing: 1px;
     opacity: 1.0;
     color: white;
-    /*text-shadow: 0 0 7px #01DFD7;*/
+    text-shadow: 0 0 7px #01DFD7;
 }
 
 p {
@@ -196,13 +197,16 @@ a:focus {
 }
 
 .brand-heading {
-    font-size: 40px;
-    color: white;
+    font-size: 50px;
+    color: purple;
+    text-shadow: none;
+
 }
 
 .intro-text {
-    font-size: 18px;
-    color: white;
+    font-size: 20px;
+    color: red;
+    text-shadow: none;
 }
 
 @media(min-width:767px) {
@@ -363,7 +367,7 @@ a:focus {
 
 .ui-content {
 	
-	text-shadow: #47D1D1;
+
 }
 
 #map {
